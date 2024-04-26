@@ -16,7 +16,11 @@ public class MainActivity extends AppCompatActivity {
 
         ImageView imageView = findViewById(R.id.myImageView);
 
-        Glide.with(this).load("").into(imageView);
+        /*
+        Licence information
+        PSX-Console-wController.png by Evan-Amos used Public Domain
+        */
+        Glide.with(this).load("https://upload.wikimedia.org/wikipedia/commons/9/95/PSX-Console-wController.png").into(imageView);
 
     }
 }
